@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10233f">
+  <meta name="description" content="AZ Smart Business connects customers with mould, die and engineering services.">
+  <title>AZ Smart Business</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brandmark">AZ</div>
+  <div><h1>AZ SMART BUSINESS</h1><p>Connecting Engineering Businesses</p></div>
+</header>
+
+<main>
+  <section class="hero">
+    <span class="tag">MOULD • DIE • ENGINEERING</span>
+    <h2>Find the right engineering partner.</h2>
+    <p>Share your requirement or contact AZ for mould, die and engineering work.</p>
+    <a class="primary" href="#request">Post Your Requirement</a>
+  </section>
+
+  <section class="cards" aria-label="Services">
+    <article class="card"><div class="icon">🧩</div><h3>Plastic Injection Mould</h3><p>Mould development, repair and related work.</p></article>
+    <article class="card"><div class="icon">⚙️</div><h3>Die & Tooling</h3><p>Die, tool-room and engineering requirements.</p></article>
+    <article class="card"><div class="icon">🔧</div><h3>EDM & Machining</h3><p>EDM, machining and job-work enquiries.</p></article>
+    <article class="card"><div class="icon">📐</div><h3>Design & Engineering</h3><p>Share drawings, specifications and project details.</p></article>
+  </section>
+
+  <section class="panel" id="request">
+    <h2>Post Your Requirement</h2>
+    <p class="muted">Fill in the details. Your phone will open WhatsApp with a ready-to-send enquiry.</p>
+    <form id="requestForm">
+      <label>Your name<input id="name" required maxlength="70" placeholder="Enter your name"></label>
+      <label>Mobile number<input id="mobile" inputmode="tel" maxlength="15" placeholder="Your contact number"></label>
+      <label>Work required
+        <select id="service" required>
+          <option value="">Select work type</option>
+          <option>Plastic Injection Mould</option>
+          <option>Die & Tooling</option>
+          <option>EDM / ZNC</option>
+          <option>Machining / Job Work</option>
+          <option>Design & Engineering</option>
+          <option>Other engineering work</option>
+        </select>
+      </label>
+      <label>Requirement details<textarea id="details" required rows="4" placeholder="Describe the work, material, quantity, delivery time, etc."></textarea></label>
+      <button class="primary" type="submit">Send Enquiry on WhatsApp</button>
+    </form>
+  </section>
+
+  <section class="panel contact">
+    <h2>Contact AZ</h2>
+    <p><strong>AZ Mould & Engineering Solutions</strong></p>
+    <p>Greater Noida, Surajpur, Uttar Pradesh</p>
+    <p>Phone: <a href="tel:+919971917392">99719 17392</a> · <a href="tel:+918285951076">82859 51076</a></p>
+    <p>Email: <a href="mailto:shaquibanwer20@gmail.com">shaquibanwer20@gmail.com</a></p>
+    <a class="secondary" href="https://wa.me/919971917392" target="_blank" rel="noopener">Chat with AZ on WhatsApp</a>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> AZ Smart Business · Built to connect engineering work</footer>
+<script src="app.js"></script>
+</body>
+</html>
