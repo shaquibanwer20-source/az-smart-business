@@ -1,69 +1,165 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#10233f">
-  <meta name="description" content="AZ Smart Business connects customers with mould, die and engineering services.">
-  <title>AZ Smart Business</title>
-  <link rel="manifest" href="manifest.webmanifest">
-  <link rel="icon" href="icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#10233f">
+<meta name="description" content="AZ Mould & Engineering Solutions - Mould, Die, EDM and Engineering Services.">
+<title>AZ Mould & Engineering Solutions</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#f2f5fa;color:#17243a}
+.top{background:#10233f;color:white;padding:22px;display:flex;align-items:center;gap:15px}
+.brandmark{font-size:30px;font-weight:bold;background:#fff;color:#10233f;padding:12px;border-radius:10px}
+.top h1{font-size:21px;margin:0}.top p{margin:6px 0 0}
+main{max-width:950px;margin:auto;padding:18px}
+.hero{background:#163d69;color:white;padding:35px 22px;border-radius:14px;margin-bottom:22px}
+.hero h2{font-size:28px;margin:12px 0}
+.tag{font-size:13px;letter-spacing:1px}
+.primary,.secondary{display:inline-block;background:#f5a623;color:#17243a;padding:13px 18px;border:0;border-radius:8px;text-decoration:none;font-weight:bold;cursor:pointer}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.card{background:white;padding:18px;border-radius:12px;box-shadow:0 2px 10px #00000012}
+.card summary{font-size:18px;font-weight:bold;cursor:pointer;color:#163d69}
+.card p{line-height:1.6}.card ul{padding-left:20px;line-height:1.8}
+.panel{background:white;padding:22px;border-radius:12px;margin-top:22px;box-shadow:0 2px 10px #00000012}
+label{display:block;font-weight:bold;margin:14px 0}
+input,select,textarea{width:100%;box-sizing:border-box;padding:12px;margin-top:7px;border:1px solid #ccd3df;border-radius:7px;font-size:15px}
+.contact a{color:#125da5}
+footer{text-align:center;padding:20px;color:#657086}
+</style>
 </head>
 <body>
+
 <header class="top">
-  <div class="brandmark">AZ</div>
-  <div><h1>AZ SMART BUSINESS</h1><p>Connecting Engineering Businesses</p></div>
+<div class="brandmark">AZ</div>
+<div>
+<h1>AZ MOULD & ENGINEERING SOLUTIONS</h1>
+<p>Connecting Engineering Businesses</p>
+</div>
 </header>
 
 <main>
-  <section class="hero">
-    <span class="tag">MOULD • DIE • ENGINEERING</span>
-    <h2>Find the right engineering partner.</h2>
-    <p>Share your requirement or contact AZ for mould, die and engineering work.</p>
-    <a class="primary" href="#request">Post Your Requirement</a>
-  </section>
 
-  <section class="cards" aria-label="Services">
-    <article class="card"><div class="icon">🧩</div><h3>Plastic Injection Mould</h3><p>Mould development, repair and related work.</p></article>
-    <article class="card"><div class="icon">⚙️</div><h3>Die & Tooling</h3><p>Die, tool-room and engineering requirements.</p></article>
-    <article class="card"><div class="icon">🔧</div><h3>EDM & Machining</h3><p>EDM, machining and job-work enquiries.</p></article>
-    <article class="card"><div class="icon">📐</div><h3>Design & Engineering</h3><p>Share drawings, specifications and project details.</p></article>
-  </section>
+<section class="hero">
+<span class="tag">MOULD • DIE • EDM • ENGINEERING</span>
+<h2>Your Engineering Work, Our Priority</h2>
+<p>Share your mould, die or engineering requirement with AZ. Send your drawings and project details for enquiry and quotation.</p>
+<a class="primary" href="#request">Send Your Requirement</a>
+</section>
 
-  <section class="panel" id="request">
-    <h2>Post Your Requirement</h2>
-    <p class="muted">Fill in the details. Your phone will open WhatsApp with a ready-to-send enquiry.</p>
-    <form id="requestForm">
-      <label>Your name<input id="name" required maxlength="70" placeholder="Enter your name"></label>
-      <label>Mobile number<input id="mobile" inputmode="tel" maxlength="15" placeholder="Your contact number"></label>
-      <label>Work required
-        <select id="service" required>
-          <option value="">Select work type</option>
-          <option>Plastic Injection Mould</option>
-          <option>Die & Tooling</option>
-          <option>EDM / ZNC</option>
-          <option>Machining / Job Work</option>
-          <option>Design & Engineering</option>
-          <option>Other engineering work</option>
-        </select>
-      </label>
-      <label>Requirement details<textarea id="details" required rows="4" placeholder="Describe the work, material, quantity, delivery time, etc."></textarea></label>
-      <button class="primary" type="submit">Send Enquiry on WhatsApp</button>
-    </form>
-  </section>
+<h2>Our Services – Tap to View Full Details</h2>
 
-  <section class="panel contact">
-    <h2>Contact AZ</h2>
-    <p><strong>AZ Mould & Engineering Solutions</strong></p>
-    <p>Greater Noida, Surajpur, Uttar Pradesh</p>
-    <p>Phone: <a href="tel:+919971917392">99719 17392</a> · <a href="tel:+918285951076">82859 51076</a></p>
-    <p>Email: <a href="mailto:shaquibanwer20@gmail.com">shaquibanwer20@gmail.com</a></p>
-    <a class="secondary" href="https://wa.me/919971917392" target="_blank" rel="noopener">Chat with AZ on WhatsApp</a>
-  </section>
+<section class="cards">
+
+<details class="card">
+<summary>Plastic Injection Mould</summary>
+<p>Plastic injection mould related requirements ke liye contact karein.</p>
+<ul>
+<li>New mould development enquiries</li>
+<li>Mould design and development support</li>
+<li>Mould repair and modification</li>
+<li>Mould maintenance requirements</li>
+<li>Plastic component mould enquiries</li>
+<li>Drawing-based quotation</li>
+</ul>
+<p>Apni component drawing, sample photo aur quantity share karein.</p>
+<a class="secondary" href="https://wa.me/919971917392?text=I%20need%20Plastic%20Injection%20Mould%20service">Enquire on WhatsApp</a>
+</details>
+
+<details class="card">
+<summary>Die & Tooling</summary>
+<p>Die, tooling aur tool-room related engineering work ke liye enquiry karein.</p>
+<ul>
+<li>Die manufacturing enquiries</li>
+<li>Tooling and fixture requirements</li>
+<li>Jig and fixture related work</li>
+<li>Tool modification and repair</li>
+<li>Tool-room job-work enquiries</li>
+<li>Drawing-based quotation</li>
+</ul>
+<p>Apni drawing aur technical details bhejein.</p>
+<a class="secondary" href="https://wa.me/919971917392?text=I%20need%20Die%20and%20Tooling%20service">Enquire on WhatsApp</a>
+</details>
+
+<details class="card">
+<summary>EDM / ZNC</summary>
+<p>EDM spark erosion aur ZNC machining related requirements share karein.</p>
+<ul>
+<li>EDM spark erosion enquiries</li>
+<li>ZNC machine job work</li>
+<li>Die and mould cavity work</li>
+<li>Electrode-related requirements</li>
+<li>Precision machining enquiries</li>
+<li>Job-work quotation</li>
+</ul>
+<p>Material, drawing aur job details share karein.</p>
+<a class="secondary" href="https://wa.me/919971917392?text=I%20need%20EDM%20ZNC%20service">Enquire on WhatsApp</a>
+</details>
+
+<details class="card">
+<summary>Design & Engineering</summary>
+<p>Design aur engineering support ke liye apni project requirement bhejein.</p>
+<ul>
+<li>Mould design enquiries</li>
+<li>2D drawing requirements</li>
+<li>3D design requirements</li>
+<li>Engineering drawing support</li>
+<li>Design modification enquiries</li>
+<li>Project-based quotation</li>
+</ul>
+<p>Drawing, file ya project details WhatsApp par share karein.</p>
+<a class="secondary" href="https://wa.me/919971917392?text=I%20need%20Design%20and%20Engineering%20service">Enquire on WhatsApp</a>
+</details>
+
+</section>
+
+<section class="panel" id="request">
+<h2>Send Your Requirement</h2>
+<p>Fill in your details. WhatsApp will open with your enquiry message.</p>
+
+<form id="requestForm">
+<label>Your Name
+<input id="name" required maxlength="70" placeholder="Enter your name">
+</label>
+
+<label>Mobile Number
+<input id="mobile" inputmode="tel" maxlength="15" placeholder="Your contact number">
+</label>
+
+<label>Work Required
+<select id="service" required>
+<option value="">Select work type</option>
+<option>Plastic Injection Mould</option>
+<option>Die & Tooling</option>
+<option>EDM / ZNC</option>
+<option>Machining / Job Work</option>
+<option>Design & Engineering</option>
+<option>Other engineering work</option>
+</select>
+</label>
+
+<label>Requirement Details
+<textarea id="details" required rows="4" placeholder="Describe your work, material, quantity and delivery requirements"></textarea>
+</label>
+
+<button class="primary" type="submit">Send Enquiry on WhatsApp</button>
+</form>
+</section>
+
+<section class="panel contact">
+<h2>Contact AZ</h2>
+<p><strong>AZ Mould & Engineering Solutions</strong></p>
+<p>Greater Noida, Surajpur, Uttar Pradesh, India</p>
+<p>Mobile: <a href="tel:+919971917392">9971917392</a></p>
+<p>Email: <a href="mailto:shaquibanwer20@gmail.com">shaquibanwer20@gmail.com</a></p>
+<a class="secondary" href="https://wa.me/919971917392">Chat with AZ on WhatsApp</a>
+</section>
+
 </main>
 
-<footer>© <span id="year"></span> AZ Smart Business · Built to connect engineering work</footer>
+<footer>© <span id="year"></span> AZ Mould & Engineering Solutions</footer>
 <script src="app.js"></script>
 </body>
 </html>
