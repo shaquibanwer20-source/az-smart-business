@@ -11,12 +11,13 @@ document.getElementById("requestForm").addEventListener("submit", function (even
   const details = document.getElementById("details").value.trim();
 
   const message = [
-    "New enquiry from AZ Smart Business",
-    "Name: " + name,
-    "Customer mobile: " + (mobile || "Not provided"),
-    "Work required: " + service,
-    "Details: " + details
-  ].join("\n");
+  "New enquiry from AZ Mould & Engineering Solutions",
+  "Name: " + name,
+  "Customer mobile: " + (mobile || "Not provided"),
+  "Work required: " + service,
+  "Details: " + details,
+  "Website: https://shaquibanwer20-source.github.io/az-smart-business/"
+].join("\n");
 
   const firstNumber = window.confirm(
     "OK dabayein: WhatsApp 9971917392\nCancel dabayein: WhatsApp 8285951076"
